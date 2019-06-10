@@ -1,15 +1,14 @@
 class Queue:
-  def __init__(self):
-    self.size = 0
-    # what data structure should we
-    # use to store queue elements?
-    self.storage = 
+    def __init__(self):
+        self.size = 0
+        # what data structure should we
+        # use to store queue elements?
+        self.storage =
 
-  def enqueue(self, item):
-    pass
-  
-  def dequeue(self):
-    pass
+    def enqueue(self, item):
+        pass
 
-  def len(self):
-    pass
+    def dequeue(self):
+
+    def len(self):
+        pass
