@@ -11,8 +11,6 @@ class BinarySearchTree:
         # 3. If we find an empty spot, park the value there
         # 4. Otherwise, go back to step 1
         if value < self.value:
-            # if value is less, we go left
-            # if there is no left child we can park this node here
             if not self.left:
                 self.left = BinarySearchTree(value)
             else:
